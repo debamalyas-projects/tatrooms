@@ -1,0 +1,231 @@
+
+/*-------# General-----*/
+
+body { background: #fff; color: #242b34; font-family: 'Poppins', sans-serif; padding:0; margin:0px; font-size:16px; line-height:24px; font-weight: 300;}
+a { color: #50d8af; transition: 0.5s;}
+a:hover, a:active, a:focus { color: #51d8af; outline: none; text-decoration: none;}
+p { padding: 0;}
+
+h1, h2, h3, h4, h5,h6 {font-family: 'Muli', sans-serif; font-weight: 400;  margin: 0 0 20px 0;  padding: 0;}
+
+h1{ font-size:36px; color:#363232; font-weight: 300; padding: 0 0 25px; line-height:36px; width:100%; }
+h2{ font-size:20px; line-height:20px; color:#070707; text-transform:uppercase; }
+p{ color:#242b34; font-size:16px; line-height:24px; font-weight: 300; }
+
+.mr_top_30{ margin-top:30px !important; }
+.red_clr{ color:#ef4b37 !important;}
+.clr{clear: both; display: block;}
+.ac{ text-align:center !important;}
+.col{margin-bottom: 30px;}
+.btn_prm{background:#fe0000 !important; color: #fff !important;}
+.btn_prm:hover{background:#ef4b37 !important;}
+
+
+/* Back to top button */
+
+.back-to-top { position: fixed; display: none; background: #50d8af; color: #fff; padding: 6px 12px 9px 12px; font-size: 16px; border-radius: 2px;  right: 15px;  bottom: 15px;  transition: background 0.5s;}
+.back-to-top:focus { background: #50d8af; color: #fff; outline: none;}
+.back-to-top:hover {background: #0c2e8a; color: #fff;}
+
+/*-----# Top Bar--------*/
+
+#topbar { background: #fff; padding: 10px 0 0 0; font-size: 14px; border-top:5px solid #fd0000; color: #27282a;}
+#topbar .contact-info a { line-height: 1; color: #27282a;}
+#topbar .contact-info a:hover { color: #0218fc;}
+#topbar .contact-info i { color: #27282a; padding: 4px;}
+#topbar .social-links a { color: #27282a; padding: 2px 0px; display: inline-block; line-height: 1px; width: 17px; height: 17px; border: 2px solid #000; border-radius: 100%; text-align: center; font-size: 11px;}
+#topbar .social-links a:hover { color: #fe0000; border-color: #fe0000;}
+#topbar .contact-info:before {content: "\f10b";font-family: FontAwesome; font-style: normal; font-weight: normal; margin: 0 5px 0 0; font-size: 20px;}
+
+
+
+
+
+.contact-info{margin-right: 15px;}
+
+/*--# Header-----*/
+
+#header { padding:0 0; transition: all 0.5s; z-index: 997; background: #fff;}
+#header #logo img { padding: 0;margin: 0;}
+#header .logo{ margin-top: -28px; }
+.sticky-wrapper{height: 55px !important;}
+.is-sticky .logo img{ width: 70%; }
+.is-sticky .logo{margin:5px 0 5px 0 !important;}
+
+/*--# Slider-----*/
+#amazingslider-1{ background:none !important; vertical-align:middle;}
+#amazingslider-1 ul li{text-align:center  !important; font-family: 'Open Sans', sans-serif !important; font-size:40px !important; 
+color:#fff !important;}
+#amazingslider-1 ul li span{ font-size: 72px; color:#de8404; font-weight:300;}
+.amazingslider-nav-0{display: none !important;}
+.amazingslider-text-wrapper-0{ left: 40% !important; bottom:16% !important; background: none !important; color:#fff !important; }
+.amazingslider-text-bg-0{background: transparent !important; opacity: 1 !important; color: #fff !important;}
+.amazingslider-title-0{color: #fff !important; font-family: 'Open Sans', sans-serif !important; text-align: center !important;}
+.amazingslider-title-0 span{color: #de8404 !important; font-size:72px; text-transform: uppercase; font-weight: 300;}
+/*--End slider-----*/
+
+/*--About us-----*/
+.abt_txt{ padding:70px 0 0 0;  color:#363232;}
+.abt_txt h1{ font-size:36px; line-height:36px;}
+.abt_txt p{ font-size:16px; line-height:28px; padding:0 0 15px; font-weight: 300;text-align: justify;}
+.abt_img img{ width: 100%; }
+/*--End of About us-----*/
+
+
+/* Sections Header---*/
+
+.section-header { margin-bottom: 30px;}
+.section-header h2 { font-size: 32px; color: #0c2e8a; text-transform: uppercase; font-weight: 700; position: relative;  
+  padding-bottom: 20px;}
+.section-header h2::before { content: ''; position: absolute; display: block; width: 50px; height: 3px; background: #50d8af;  bottom: 0;  left: 0;}
+.section-header p { padding: 0; margin: 0;}
+
+/* End Sections Header---*/
+
+/* Booking Form Sections Header---*/
+.booking_section{position:relative;}
+.booking{padding:0px; margin:-16px 0 0 0; z-index:999;}
+.booking_hd span{padding:20px 40px; margin:0px; font-size:18px; color:#fff; background:#f44b4b; border-radius:4px 4px 0 0;}
+.Booking_content{padding:40px 0 10px 0; margin:0px; font-size:18px;  background:#f44b4b;}
+.booking_container{ background:#f44b4b;}
+.ht_20{ height: 20px; clear: both; }
+.Booking_content input[type="text"], .Booking_content input[type="date"], .Booking_content input[type="number"], .Booking_content input[type="submit"]
+{width:100%; background: none; padding:10px; border:2px solid #fff; height: 48px; color: #fff; font-size: 14px; border-radius: 4px; font-weight: 200; padding: 10px 6px;}
+.Booking_content input[type="submit"]{background: #fff; color: #333; text-transform: uppercase; font-weight: 400;}
+.Booking_content input[type="submit"]:hover{background: #fe0000; color: #fff;}
+.Booking_content input[type="text"]:focus, .Booking_content input[type="date"]:focus, .Booking_content input[type="number"]:focus{ color: #fff; }
+
+::placeholder { color: #fff; opacity: 1; /* Firefox */}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */ color: #fff;}
+::-ms-input-placeholder { /* Microsoft Edge */ color: #fff;}
+
+/* End Booking Form Sections Header---*/
+
+/* Start Top Hotel Sections Header---*/
+#top_hotels { padding: 30px 0 50px 0;}
+#top_hotels .hotel_img{margin-bottom: 20px;}
+#top_hotels .hotel_img img{border-radius: 100%; width:85%; box-shadow: 0 0 13px #ccc; border: 2px solid #fff; }
+#top_hotels p{text-align: center; padding: 0 0 15px;}
+#top_hotels h3{ font-size: 20px; color: #212020; }
+.red{color: #fe0000 !important; }
+.buton{text-align: center;}
+.buton a{ background: #fe0000; padding: 6px 10px; border-radius: 5px; text-align: center; font-size: 15px; color: #fff; }
+.buton a:hover{ background: #c81f1f; }
+/* End Top Hotel Sections---*/
+
+/* Start popular Hotel Sections---*/
+#pop_hotels{text-align: center; padding: 0 0 50px;}
+#pop_hotels h1{border-bottom: 1px solid #ccc; text-align: left;}
+#pop_hotels h3{ font-size: 20px; padding: 10px 0 0 0; }
+#pop_hotels .rte{padding: 0 0 15px;}
+#pop_hotels .hotel_img img{border-radius: 5px;}
+/* End popular Hotel Sections---*/
+
+#btm_banner{text-align: center; margin:20px 0 50px;}
+
+
+/*------# Footer-------*/
+.footer_btm{border-top:1px solid #403f3f; margin:0; padding: 10px 0; text-align: center; color: #797676; font-size:13px; }
+.footer_section{ background:url("../img/footer_bg.jpg") center bottom no-repeat #30373d; padding:80px 0 40px; position:relative; color:#fff;}
+.footer_section h4{ color:#fff; font-size:25px;}
+
+#footer { background: #1b1b1b;  color: #fff; font-family: 'Poppins', sans-serif; font-weight: 300;}
+#footer p{font-size:14px; color: #fff; font-weight: 200; font: caption;
+    text-align: justify;}
+#footer .credits a {color: #0c2e8a;}
+
+.newsletter .form{background: #272424; border:1px solid #818181; height: 42px; border-radius: 4px;;}
+.newsletter .form input[type="email"]{ background: none; border:none; width: 60%; padding: 0 0 0 10px; line-height: 42px; font-size: 13px; font-weight: 100; color: #fff; }
+.newsletter .form input[type="email"]:focus{color: #fff;}
+.newsletter .form input[type="submit"]{background: #fe0000; color: #fff; font-size: 15px; border: none; height: 40px; cursor: pointer; border-radius: 0 4px 4px 0; text-transform: uppercase;}
+.newsletter .form input[type="submit"]:hover{opacity:0.7;}
+
+.quick_links ul{list-style-type: none; padding: 0; margin:0;}
+.quick_links ul li a { font-weight: 100; font-size:14px; color: #fff; padding: 0 0 0px 12px; margin: 0px; background: url(../img/arow_trans.png) 0 6px no-repeat;}
+.quick_links ul li a:hover{color: #fe0000;}
+
+
+/*--------xxxxxx------*/
+
+/*--------About Us------*/
+
+.breadcrumbs { background-position: 100%; position: relative; background-repeat: no-repeat; background-size: cover;
+  text-align: center; padding: 120px 0; margin:0 0 50px 0;}
+.overlay { position: relative;}
+.breadcrumbs.overlay::before { opacity: 0.6; background: #252525;}
+.overlay::before { position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: 0.5; background: #000;
+  content: ""; -webkit-transition: all 0.4s ease; -moz-transition: all 0.4s ease; transition: all 0.4s ease;}
+.breadcrumbs h2 { color: #fff; text-transform: capitalize; font-size: 45px; font-weight: 700;}
+.button .btn:before { content: ""; position: absolute; z-index: -1; top: 0; left: 0; right: 0; bottom: 0; background: #fff;
+  border-radius: 100%; -webkit-transform: scale(0); transform: scale(0); -webkit-transition: all 0.4S ease-out;
+ -moz-transition: all 0.4S ease-out; transition: all 0.4S ease-out;}
+
+ .contact_form .form-control {
+  height: 52px !important;
+  background: #fff !important;
+  color: #000 !important;
+  font-size: 15px;
+  border-radius: 0px;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+.contact_form .btn_prm{padding:20px 30px;}
+#contact{margin:0 0 50px;}
+#contact h2{padding: 0 0 20px; margin-bottom: 20px; border-bottom:1px solid #ccc;}
+.booking_container{padding:40px 0;}
+.Booking_content{ border:1px solid #fff; border-radius:5px; padding:0px;}
+.Booking_content .col{ padding-bottom:0px; margin-bottom:0px;}
+.Booking_content h5{margin-bottom:0px; background:#000; padding:20px 5px; color:#fff; text-transform:uppercase; border-radius:5px 0 0 5px; font-size:16px; text-align:center;}
+.amazingslider-slider-0 { margin-left: 0px !important;  border-width: 0px !important; border:none !important;}
+.Booking_content input[type="text"], .Booking_content input[type="date"], .Booking_content input[type="number"], .Booking_content input[type="submit"]
+{margin:5px 0;}
+.Booking_content .col-lg-2{ max-width:16.5% !important;}
+
+
+/*--------listing------*/
+
+#common_sec h1{ font-size:25px; font-weight: 600; border-radius: 10px 10px 0 0; background: #dad584; padding:10px 20px; text-transform: uppercase; margin: 0;}
+.hotel_lists{display: flex; border-bottom: 1.5px solid #dad584; padding:20px 0; background: #f7f4f4;}
+/*.hotel_lists:last-child{border: none;}*/
+.hotel_lists h3{border-bottom: 1px dashed #dad584; padding: 0 0; }
+.hotel_lists h3 span{ background: #dad584; border-radius: 5px 5px 0 0; padding: 2px 15px;  font-size: 20px; line-height: 20px; text-transform: uppercase; font-weight: 600;}
+.hotel_lists .hotel_img img{width: 100%; border-radius: 5px; border:5px solid #dad584;}
+.hotel_lists .buton{text-align: left;}
+.hotel_lists .rte{margin-bottom: 20px;}
+
+/*--------Hotel details 19.12.2019------*/
+
+#hotel_detail_sec{margin: 30px 0 0 0;}
+.hotel_desc{margin: 0 0 35px;}
+.hotel_desc h2{background: #d9d583; padding:10px; border-radius: 5px 5px 0 0;}
+.img-responsive{max-width: 100%; height: auto; display:block;}
+.facility{margin: 0 0 35px;}
+.facility h2{clear: both; display: block; width: 100%;}
+.facility fieldset{border: 1px solid #ccc !important; padding:10px 20px 30px; border-radius: 8px; background: #f3f0f0;}
+.facility legend{ width: auto !important;  background: #d9d583; padding: 7px 20px; border-radius: 4px;}
+.room_desc{margin-top: 15px;}
+.your_price{ font-size: 30px;}
+.ht_20{ height: 20px; clear: both; width: 100%;}
+.clr{clear: both;}
+.des{border-right: 1px solid #ccc;}
+/*Search box options */
+.option{
+    background: none;
+    padding: 10px;
+    border: 2px solid #fff;
+    height: 48px;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 4px;
+    font-weight: 200;
+    margin-top: 5px;
+	padding: 10px 6px;
+	overflow: visible;
+	width: 90%;
+    margin-left: 17px;
+}
+option{
+    color:#150c0c82;
+}
+
+

@@ -1,0 +1,85 @@
+
+@media (max-width: 1192px) {
+  .tp_nav ul li a{ padding-left:15px; padding-right:15px;}
+  #logo img{ width:80%;}
+  .nav-menu a{ padding-left:15px; padding-right:15px;}
+  .Booking_content input[type="text"], .Booking_content input[type="date"], .Booking_content input[type="number"], .Booking_content input[type="submit"], {margin:15px 0;}
+  .Booking_content select{margin-top:15px; margin-bottom:15px;}
+  .newsletter .form input[type="submit"]{float:none; margin:10px auto; text-align:center; border-radius:5px;
+  }
+
+}
+
+
+@media (max-width: 1024px) {
+  .logo_icon{ width: auto; margin-right:15px;}
+  #logo img{ width:100%;}
+  .nav-menu a{ padding-left:2px; padding-right:2px;}
+  #logo{ width:22%;}
+  .nav-menu{ padding:0px 0 0 0;}
+  #btm_banner img{width: 80%;}
+  .sticky-wrapper { height: auto !important;}
+  .booking_section{ margin-bottom: 30px;}
+  .amazingslider-title-0{ font-size:25px !important;}
+  .amazingslider-description-0{ font-size:12px !important;}
+  .amazingslider-text-wrapper-0{bottom:5% !important;}
+  .amazingslider-title-0 span{font-size:42px;}
+  #abt{text-align: center;}
+  .abt_txt{padding: 0;}
+  #top_hotels .col{margin-bottom: 50px;}
+  #pop_hotels{padding: 0;}
+  .Booking_content .col-lg-2 { max-width: inherit !important;}
+  .Booking_content .col:first-child{ flex:100%; }
+  .Booking_content .col h5{ border-radius:5px 5px 0 0px; text-align:center;}
+  .Booking_content input[type="text"], .Booking_content input[type="date"], .Booking_content input[type="number"], .Booking_content input[type="submit"]{margin:15px 5%; width:90%;}
+  .Booking_content select{margin: 15px 5%;}
+  .newsletter .form input[type="email"]{width:100%;}
+}
+@media (max-width: 992px) {
+    .newsletter .form input[type="submit"] {float: right; margin: 0;}
+    .newsletter .form input[type="email"]{width:60%;}
+}
+@media (max-width: 768px) {
+  #header .logo {margin-top: 19px;}
+  #mobile-nav ul li{ width:100%;}
+
+
+  .top_bar{ display:none;}
+
+  #mobile-nav ul li.tp_nav{ display:block;} 
+
+  #logo{ width:115px;}
+  #top_hotels .hotel_img img{width: inherit;}
+  .Booking_content input{width: 100%;}
+  #top_hotels{text-align: center;}
+  .abt_txt{text-align: center; padding: 0px;;}
+  #top_hotels{padding: 0px;}
+  #pop_hotels h1{text-align: center;}
+  
+  /* --For Listing-- */
+  .hotel_lists{display: block; text-align: center;}
+  .hotel_lists .rte{margin-bottom: 20px;}
+  .hotel_lists .hotel_img{width: 300px; margin: 0 auto 20px;}
+
+}
+
+@media (max-width: 685px) {
+
+}
+
+@media (max-width: 576px) {
+  #pop_hotels{padding: 0px;}
+  #contact #google-map { margin-top: 20px;}
+  .amazingslider-text-0{padding: 0px !important;}
+  .amazingslider-text-wrapper-0{bottom:40px !important; margin:0px !important;}
+  .amazingslider-title-0 span{font-size:25px;}
+}
+@media (max-width: 480px) {
+
+}
+
+
+
+
+
+
